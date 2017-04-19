@@ -90,7 +90,7 @@ Pour ce tp on utilise la base de donnée "my_database".
  Datastore ds = morphia.createDatastore(mongo, "my_database");
 ```
 ##### Les chargement des données sur la base
-
+```
 Person p = new Person();
 p.setName("Tintin");	
 Address address = new Address();
